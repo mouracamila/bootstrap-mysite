@@ -1,0 +1,283 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    
+    <meta charset="UTF-8">
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    
+    <title>Curso de Bootstrap 4</title>
+    
+    <link rel="stylesheet" href="node_modules/bootstrap/dist/css/bootstrap.min.css">
+    
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <!--<nav class= "navbar navbar-expand-lg navbar-dark bg-primary">-->
+    <!--<nav class="navbar navbar-fixed-top navbar-expand-lg navbar-dark bg-primary">-->
+
+        <div class="container">
+            
+            <a class="navbar-brand h1 mb-0" href="#">Curso</a>
+            
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSite">
+               
+                <span class="navbar-toggler-icon"></span>
+            
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSite">
+                
+                <ul class="navbar-nav mr-auto">
+                   
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#">Início</a>
+                    </li>
+                   
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#">Perfil</a>
+                    </li>
+                   
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#">Serviços</a>
+                    </li>
+                   
+                    <li class="navbar-item">
+                        <a class="nav-link" href="#">Contatos</a>
+                    </li>
+                
+                </ul>
+                
+                <ul class="navbar-nav ml-auto">
+
+                    <li class="nav-item dropdown">
+                        
+                        <a class="nav-link dropdown-toggle" href="#" data-toggle="dropdown" id="navDrop">
+                            Social
+                        </a>
+                        
+                        <div class="dropdown-menu">
+                            
+                            <a class="dropdown-item" href="#">Facebook</a>
+                            <a class="dropdown-item" href="#">Twitter</a>
+                            <a class="dropdown-item" href="#">GitHub</a>
+
+                        </div>
+
+                    </li>
+
+                </ul>
+
+                <form class="form-inline">
+                
+                    <input class="form-control ml-4 mr-2" type="search" placeholder="Buscar...">
+                    <button class="btn btn-dark" type="Submit">Ok</button>
+                
+                </form>
+
+
+            </div>
+
+        </div>
+
+
+    </nav>
+
+    <div id="carouselSite" class="carousel slide" data-ride="carousel">
+
+        <ol class="carousel-indicators">
+            
+            <li data-target="#carouselSite" data-slide-to="0" class="active"></li>
+            <li data-target="#carouselSite" data-slide-to="1" ></li>
+            <li data-target="#carouselSite" data-slide-to="2" ></li>
+        
+        </ol>
+
+        <div class="carousel-inner">
+        
+            <div class="carousel-item active">
+
+                <img src="imgs/img-01.jpeg" class="w-100 d-block">
+
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h3> sit amet</h3>
+                    <p>Pri malorum blandit ea, eam vide audire viderer at</p>
+
+                </div>
+
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="imgs/img-02.jpeg" class="w-100 d-block">
+                
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h3> dolor sit amet</h3>
+                    <p>Pri malorum blandit ea </p>
+
+                </div>
+        
+            </div>
+
+            <div class="carousel-item">
+
+                <img src="imgs/img-03.jpeg" class="w-100 d-block">
+                
+                <div class="carousel-caption d-none d-md-block">
+
+                    <h3>Lorem ipsum dolor sit amet</h3>
+                    <p> eam vide audire viderer at</p>
+
+                </div>
+    
+            </div>
+    
+        </div>
+            
+        <a class="carousel-control-prev" href="#carouselSite" role="button" data-slide="prev">
+
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Anterior</span>
+
+        </a>
+        <a class="carousel-control-next"href="#carouselSite" role="button" data-slide="next">
+
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Avançar</span>
+            
+        </a>
+            
+    </div>
+
+    <div class="container">
+        
+        <div class="row">
+            
+            <div class="col-12 text-center my-5">
+               
+                <h1 class="display-3">Lorem ipsum</h1>
+                <p>Mea at feugiat dolorum conclusionemque,
+                    est te ipsum sanctus. Nam ei scribentur definitiones,
+                    ei mel forensibus dissentiet, sea alienum tincidunt an.</p>
+            
+            </div>
+        
+        </div>
+
+        <div class="row mb-5">
+            
+            <div class="col-3">
+                
+                <nav id="navbarVertical" class="navbar navbar-light bg-light">
+                    
+                    <nav class="nav nav-pills flex-column">
+                        
+                        <a class="nav-link" href="#item1">Mea at feugiat</a>
+
+                        <nav class="nav nav-pills flex-column">
+                            
+                            <a class="nav-link ml-3" href="#item1-1">nullam fringilla</a>
+                            <a class="nav-link ml-3" href="#item1-2">scribentur definitiones</a>
+                        
+                        </nav>
+
+                        <a class="nav-link" href="#item2">Cum te deserunt </a>
+                        
+                        <nav class="nav nav-pills flex-column">
+                            
+                            <a class="nav-link ml-3" href="#item2-1">eu falli</a>
+                            <a class="nav-link ml-3" href="#item2-2">et accusam dissentiunt .</a>
+                        
+                        </nav>
+
+                        <a class="nav-link" href="#item3">Mel dictas </a>
+
+                        <nav class="nav nav-pills flex-column">
+                            
+                            <a class="nav-link ml-3" href="#item3-1"> constituto</a>
+                            <a class="nav-link ml-3" href="#item3-2">a summo doctus  </a>
+                        
+                        </nav>
+
+                    </nav>
+                
+                </nav>
+
+            </div>
+
+            <div class="col-9">
+                
+                <div data-spy="scroll" data-target="#navbarVertical" data-offset="0" class="scrollspySite">
+
+                    <h4 id="item1">Pro ut iudicabit mediocritatem</h4>
+                    
+                    <p> Sea ex amet qualisque. Mandamus periculis sea et, ea magna lorem pertinax mea.
+                        Quo ut altera eruditi qualisque, quaeque labores impedit te pro. Est at eius
+                        aliquando, usu atqui delicatissimi ex, delectus adolescens nec at</p>
+
+                    <h5 id="item1-1">Quaeque eligendi necessitatibus vix </h5>
+                    
+                    <p>Quaeque eligendi necessitatibus vix cu, ad laudem persius pro, sit principe
+                         prodesset cu. In nullam dolorum delectus nam, no diceret apeirian mel.
+                        Cu pri quas erant consequat, ea sea ferri fugit. Cu ullum omnes mea.</p>
+
+                    <h4 id="item2">Lorem ipsum dolor sit amet</h4>
+                
+                    <p> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+                    
+                    <h5 id="item2-1">Quaeque eligendi necessitatibus vix </h5>
+                
+                    <p>Quaeque eligendi necessitatibus vix cu, ad laudem persius pro, sit principe
+                        prodesset cu. In nullam dolorum delectus nam, no diceret apeirian mel.
+                        Cu pri quas erant consequat, ea sea ferri fugit. Cu ullum omnes mea.</p>
+                    
+                    <h5 id="item2-2">Quaeque eligendi necessitatibus vix </h5>
+                
+                    <p>Quaeque eligendi necessitatibus vix cu, ad laudem persius pro, sit principe
+                        prodesset cu. In nullam dolorum delectus nam, no diceret apeirian mel.
+                        Cu pri quas erant consequat, ea sea ferri fugit. Cu ullum omnes mea.</p>
+            
+                    <h4 id="item3">Pro ut iudicabit mediocritatem</h4>
+                
+                    <p> Sea ex amet qualisque. Mandamus periculis sea et, ea magna lorem pertinax mea.
+                        Quo ut altera eruditi qualisque, quaeque labores impedit te pro. Est at eius
+                        aliquando, usu atqui delicatissimi ex, delectus adolescens nec at</p>
+                   
+                    <h5 id="item3-1">Lorem ipsum dolor sit amet</h4>
+                
+                    <p> Consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                        et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+                        ullamco laboris nisi ut aliquip ex ea commodo consequat.Duis aute irure dolor
+                        in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur</p>
+
+                    <h5 id="item3-2">Pro ut iudicabit mediocritatem</h4>
+                
+                    <p> Sea ex amet qualisque. Mandamus periculis sea et, ea magna lorem pertinax mea.
+                        Quo ut altera eruditi qualisque, quaeque labores impedit te pro. Est at eius
+                        aliquando, usu atqui delicatissimi ex, delectus adolescens nec at</p>
+                
+                </div>
+            
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="node_modules/jquery/dist/jquery.js"></script>
+    <script src="node_modules/popper.js/dist/umd/popper.js"></script>
+    <script src="node_modules/bootstrap/dist/js/bootstrap.js"></script>
+</body>
+</html>
